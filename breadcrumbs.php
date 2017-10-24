@@ -2,6 +2,7 @@
 /**
 // SKY1 - Updated the FoundationPress breadbrumbs with the following code and then modified for FoundationPress since they discontinued 
 // Source: https://www.thewebtaylor.com/articles/wordpress-creating-breadcrumbs-without-a-plugin
+// Update line 23 to reflect your custom taxonomy
 
  * Adapted for Foundation from http://thewebtaylor.com/articles/wordpress-creating-breadcrumbs-without-a-plugin
  *
@@ -15,11 +16,11 @@ if ( ! function_exists( 'foundationpress_breadcrumb' ) ) {
 		// Settings
 		$separator  = '&gt;';
 		$breadcrums_id      = 'breadcrumbs';
-    	$breadcrums_class   = 'breadcrumbs';
+    		$breadcrums_class   = 'breadcrumbs';
 		$home_title = 'ModuSystems';
 
 		// If you have any custom post types with custom taxonomies, put the taxonomy name below (e.g. product_cat)
-    	$custom_taxonomy    = 'product_category';
+    		$custom_taxonomy    = 'product_category';
 
 		// Get the query & post information
 		global $post,$wp_query;

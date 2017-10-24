@@ -20,3 +20,9 @@ So if you place the file in the /library directory your code/statement should lo
 <code>
 require_once( 'library/breadcrumbs.php' );
 </code>
+
+
+And then add the usual to your theme files where you want the breadcrumbs to appear:
+<code>
+foundationpress_breadcrumb();
+</code>

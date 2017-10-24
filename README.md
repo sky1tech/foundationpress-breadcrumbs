@@ -19,5 +19,7 @@ So if you place the file in the /library directory your code/statement should lo
 
 <code>
 // FoundationPress Breadcrumbs
+</code>
+<code>
 require_once( 'library/breadcrumbs.php' );
 </code>

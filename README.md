@@ -18,7 +18,5 @@ To use this code just add a require_once statement to breadcrumbs.php in your fu
 So if you place the file in the /library directory your code/statement should look like this in your functions.php: 
 
 <code>
-// FoundationPress Breadcrumbs
-<br>
 require_once( 'library/breadcrumbs.php' );
 </code>

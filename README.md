@@ -9,7 +9,7 @@ https://github.com/olefredrik/FoundationPress/issues/1088
 SKY1 updated to the following code as described on that page:
 https://www.thewebtaylor.com/articles/wordpress-creating-breadcrumbs-without-a-plugin
 
-Then removed separator <code><li></code> to match Foundation example markup. 
+Then removed separator li to match Foundation example markup. 
 
 WORKS!
 

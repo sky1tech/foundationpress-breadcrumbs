@@ -21,8 +21,7 @@ So if you place the file in the /library directory your code/statement should lo
 require_once( 'library/breadcrumbs.php' );
 </code>
 
-<br>
-
+<br><br
 And then add the usual to your theme files where you want the breadcrumbs to appear:
 
 <code>

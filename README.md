@@ -15,15 +15,15 @@ WORKS!
 
 To use this code just add a require_once statement to breadcrumbs.php in your functions.php file and it should work.  
 
-So if you place the file in the /library directory your code/statement should look like this in your functions.php: 
+So if you place the file in the /library directory your code/statement should look like this in your functions.php file: 
 
 <code>
 require_once( 'library/breadcrumbs.php' );
 </code>
-
+<br><br>
+Note: Update line 23 to reflect your custom taxonomy
 <br><br>
 And then add the usual to your theme files where you want the breadcrumbs to appear:
-
 <code>
 foundationpress_breadcrumb();
 </code>
